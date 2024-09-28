@@ -122,7 +122,7 @@ function nextSlide() {
     if (newSlideIndex > imgSlid.length - 1) {
         newSlideIndex = 0;
     }
-    currentSlideIndex = slideIndex;
+    currentSlideIndex = newSlideIndex;
     showSlide();
 }
 
